@@ -1,0 +1,9 @@
+---
+applications:
+- name: hello-world-node-js
+  memory: 128M
+  instances: 1
+  host: hello-world-node-js-0
+  domain: ng.bluemix.net
+  path: .
+  command: node main.js
