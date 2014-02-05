@@ -1,1 +1,5 @@
 A Node.js application with a classic Hello World message. Minimum content necessary to run on IBM Bluemix / Cloud Foundry deployment.
+
+$ cf target api.ng.bluemix.net
+$ cf login <IBM ID>
+$ cf push --command 'node main.js'
